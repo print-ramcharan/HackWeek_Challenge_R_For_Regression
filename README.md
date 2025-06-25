@@ -27,6 +27,6 @@ Plots will be saved in the plots/ folder.
 Screenshots
 
 mtcars regression plot  
-![cars](/plots/mtcars_regression.pngp)
+![cars](/plots/mtcars_regression.png)
 earthquake attenu regression plot  
 ![earthquake](/plots/earthquake_regression.png) 
