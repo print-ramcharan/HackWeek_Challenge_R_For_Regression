@@ -28,5 +28,5 @@ Screenshots
 
 mtcars regression plot  
 ![cars](/plots/mtcars_regression.pngp)
-earthquake (attenu) regression plot  
+earthquake attenu regression plot  
 ![earthquake](/plots/earthquake_regression.png) 
