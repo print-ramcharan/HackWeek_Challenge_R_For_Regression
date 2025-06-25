@@ -4,7 +4,7 @@ library(ggplot2)
 # Create folder for plots
 if (!dir.exists("plots")) dir.create("plots")
 
-# --- Earthquake Data: attenu ---
+# earthquake
 data(attenu, package = "datasets")
 
 model_attenu <- lm(log(accel) ~ log(dist), data = attenu)
@@ -20,7 +20,7 @@ p1 <- ggplot(attenu, aes(x = log(dist), y = log(accel))) +
 
 ggsave("plots/earthquake_regression.png", p1)
 
-# --- Car Data: mtcars ---
+# cars
 data(mtcars)
 
 model_mtcars <- lm(mpg ~ wt + hp, data = mtcars)
